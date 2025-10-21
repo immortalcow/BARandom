@@ -21,5 +21,4 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('randomize/', views.randomize, name='randomize'),
-    path('admin/', admin.site.urls),
 ]
